@@ -1,0 +1,10 @@
+name = "h5fortran"
+version = "3.4.3"
+license = "BSD 3-Clause"
+author = "Michael Hirsch"
+copyright = "2020 Michael Hirsch"
+homepage = "https://github.com/geospace-code/h5fortran"
+[build]
+link = ["hdf5_fortran", "hdf5hl_fortran"]
+[install]
+library = false
